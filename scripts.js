@@ -7,6 +7,8 @@
 // });
 // Select menu toggle button and navigation links
 // Select menu toggle button and navigation links
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const menuToggle = document.getElementById('toggle');
   const navLinks = document.getElementById('navlink');
@@ -16,6 +18,3 @@ document.addEventListener('DOMContentLoaded', () => {
     navLinks.classList.toggle('active');
   });
 });
-
-
-
