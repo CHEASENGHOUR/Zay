@@ -133,11 +133,11 @@ header>.holder-slide>.slide{
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 0px 50px;
+  padding: 0px 160px;
 
 }
 header>.holder-slide>.slide>.content{
-  width: 50%;
+  width: 80%;
   /* background-color: aqua; */
 }
 
@@ -162,10 +162,10 @@ header>.holder-slide>.slide>.content>.text{
 }
 
 header>.holder-slide>.slide>.image-box{
-  /* background-color: blanchedalmond; */
   display: flex;
-  justify-content: center;
+  justify-content: end;
   animation: img-bounce 2.5s linear infinite;
+  /* background-color: #4caf50; */
 }
 header>.holder-slide>.slide>.image-box>img{
   width: 70%;
